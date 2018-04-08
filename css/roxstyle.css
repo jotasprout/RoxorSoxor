@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.container {
+	display: grid;
+	grid-template-columns: 150px 150px 150px;
+	grid-template-rows: 150px 150px;
+	grid-gap: 1rem;
+}
+
+.item {
+	box-shadow: 0 5px 10px;
+}
+
+.item04 {
+	background-color: red;
+}
