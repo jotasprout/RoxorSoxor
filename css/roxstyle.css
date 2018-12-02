@@ -21,55 +21,18 @@
 	justify-content: center;
 	
 	/* 
+	
+	vertical-align: middle;
+	transform: translate (-50%, -50%);
 	background-color: #C1E0FF;
 	*/
 }
 
 .textyText {
+	
 	text-align: center;
 	font-family: sans-serif;
 	/*
+	margin: auto;
 	*/
 }
-
-
-
-
-
-/*
-.item01 {
-	background-color: violet;
-}
-
-.item02 {
-	background-color: black;
-}
-
-.item03 {
-	background-color: green;
-}
-
-.item04 {
-	background-color: blue;
-}
-
-.item05 {
-	background-color: yellow;
-}
-
-.item06 {
-	background-color: orange;
-}
-
-.item07 {
-	background-color: gray;
-}
-
-.item08 {
-	background-color: cyan;
-}
-
-.item09 {
-	background-color: DarkGreen;
-}
-*/
