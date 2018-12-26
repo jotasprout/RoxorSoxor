@@ -21,7 +21,6 @@
 	justify-content: center;
 	
 	/* 
-	
 	vertical-align: middle;
 	transform: translate (-50%, -50%);
 	background-color: #C1E0FF;
@@ -39,4 +38,28 @@
 
 .pointyHead { 
 	cursor: pointer; 
+}
+
+.red-base {
+	background-color: hsl(0, 100%, 50%);
+}
+
+.yellow-base {
+	background-color: hsl(60, 100%, 50%);
+}
+
+.green-base {
+	background-color: hsl(120, 100%, 50%);
+}
+
+.cyan-base {
+	background-color: hsl(180, 100%, 50%);
+}
+
+.blue-base {
+	background-color: hsl(240, 100%, 50%);
+}
+
+.magenta-base {
+	background-color: hsl(300, 100%, 50%);
 }
