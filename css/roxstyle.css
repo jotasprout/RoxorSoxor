@@ -40,26 +40,68 @@
 	cursor: pointer; 
 }
 
+/* First color in comment is html spec named color */
+
+.white {
+	background-color: hsl(0, 0%, 100%); /* white #FFFFFF */
+}
+
+.silver {
+	background-color: hsl(0, 0%, 75%); /* silver #C0C0C0 */
+}
+
+.gray {
+	background-color: hsl(0, 0%, 50%); /* gray #808080 */
+}
+
+.black {
+	background-color: hsl(0, 0%, 0%); /* black #000000 */
+}
+
 .red-base {
-	background-color: hsl(0, 100%, 50%);
+	background-color: hsl(0, 100%, 50%); /* red #FF0000 */
+}
+
+.red-shade {
+	background-color: hsl(0, 100%, 25%); /* maroon #800000 */
 }
 
 .yellow-base {
-	background-color: hsl(60, 100%, 50%);
+	background-color: hsl(60, 100%, 50%); /* yellow #FFFF00 */
 }
 
-.green-base {
-	background-color: hsl(120, 100%, 50%);
+.yellow-shade {
+	background-color: hsl(60, 100%, 25%); /* olive #808000 aka brown */
 }
 
-.cyan-base {
-	background-color: hsl(180, 100%, 50%);
+.lime-base {
+	background-color: hsl(120, 100%, 50%); /* lime #00FF00 */
+}
+
+.lime-shade {
+	background-color: hsl(120, 100%, 25%); /* green #008000 */
+}
+
+.aqua-base {
+	background-color: hsl(180, 100%, 50%); /* aqua #00FFFF aka cyan */
+}
+
+.aqua-shade {
+	background-color: hsl(180, 100%, 25%); /* teal #008080 */
 }
 
 .blue-base {
-	background-color: hsl(240, 100%, 50%);
+	background-color: hsl(240, 100%, 50%); /* blue #0000FF */
 }
 
-.magenta-base {
-	background-color: hsl(300, 100%, 50%);
+.blue-shade {
+	background-color: hsl(240, 100%, 25%); /* navy #000080 */
+}
+
+.fuchsia-base {
+	background-color: hsl(300, 100%, 50%); /* fuchsia #FF00FF aka magenta*/ 
+}
+
+.fuchsia-shade {
+	background-color: hsl(300, 100%, 25%); /* purple #800080 */ 
 }
